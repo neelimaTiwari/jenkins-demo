@@ -4,7 +4,7 @@ pipeline {
         stage('Checkout Info') {
             steps {
                 bat 'echo Jenkins pulled this pipeline straight from my GitHub repo'
-                bat 'echo testing auto build 1'
+                bat 'echo testing auto build 1.1'
                 bat 'dir'
             }
         }
